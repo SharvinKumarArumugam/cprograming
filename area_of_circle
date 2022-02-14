@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+//global variable section
+#define PI 3.142
+float areaCircle(float r);
+
+//main function section
+int main(){
+
+}
+
+//user-defined section
+float areaCircle(float r){
+    float area;
+    area = PI * r * r;
+    return area;
