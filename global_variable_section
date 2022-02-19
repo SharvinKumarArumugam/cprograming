@@ -1,0 +1,36 @@
+//DOCUMENTATION SECTION
+/*SHARVIN KUMAR A/L ARUMUGAM 
+DATE : 19/02/2022*/
+
+//PRE-PROCESSOR SECTION
+#include<stdio.h>
+
+//GLOBAL VARIABLE SECTION
+void add()
+{
+    int a,b,c;
+    printf("\nEnter The Value of A: ");
+    scanf("%d",&a);
+    printf("\nEnter The Value of B : ");
+    scanf("%d",&b);
+    c=a+b;
+    printf("\n Total : %d",c);
+}
+
+
+//MAIN FUNCTION SECTION
+int main()
+{
+    int n,i;
+    printf("\nEnter The Limit : ");
+    scanf("%d",&n);
+    for ( i = 0; i < n; i++)
+    {
+        add();
+    }
+    
+    
+    return 0;
+}
+
+//USER-DEFINED SECTION
