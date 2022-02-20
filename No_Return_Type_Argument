@@ -1,0 +1,27 @@
+//documentation section
+/*Sharvin kumar A/L Arumugam */
+
+
+//pre-processor section
+#include<stdio.h>
+
+//global variable rection
+void add();
+//main function section
+int main()
+{
+
+
+    return 0;
+}
+
+//user-defined
+void add(){
+
+    int a,b,c;
+
+    printf("\nEnter The Value of A & B :");
+    scanf("%d%d",&a,&b);
+    c=a+b;
+    printf("Total : %d",c);
+}
