@@ -1,0 +1,30 @@
+//documentation section 
+/*Sharvin kumar Arumugam 
+23/2/2022
+c programming exercise 
+no return with argument function in c */
+
+//pre-processor section
+#include<stdio.h>
+
+//global variablection 
+void add(int,int);
+//main functional section 
+int main(){
+    int a,b;
+    printf("Enter The Value of A & B : ");
+    scanf("%d%d",a&b);
+    add(a,b);
+    return 0;
+
+}
+
+void add(int x, int y){
+    int c;
+    c=x+y;
+
+}
+
+
+
+//use-defined section
